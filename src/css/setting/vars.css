@@ -1,13 +1,13 @@
 :root {
-    --mainEng-font: "Orbitron";
-    --mainKor-font: "Nanum Gothic Coding";
-    --mainNum-font: "gmarket";
- 
-    --mainBg-color: #dff3ffff;    
-    --subBg100: #c2e7ff;    
-    --subBg200: #7fcfffff;  
-    --subBg300: #5ab3f0ff;  
-    --subBg400: #3998d3ff;   
+    --mainEng-font: "Pompiere ";
+    --mainKor-font: "Nanum Pen Script";
+    --mainNum-font: "Cookie";
+
+    --mainBg-color: #dff3ffff;
+    --subBg100: #c2e7ff;
+    --subBg200: #7fcfffff;
+    --subBg300: #5ab3f0ff;
+    --subBg400: #3998d3ff;
     --subBg500: #047db7ff;
 
     --white: #fff;
@@ -32,14 +32,14 @@
 
 }
 
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     :root {
         font-size: 14px;
 
     }
+}
 
-    body {
-        color: var(--black);
-        background-color: var(--mainBg-color);
-    }
+body {
+    color: var(--black);
+    background-color: var(--mainBg-color);
 }
