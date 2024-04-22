@@ -12,7 +12,7 @@ export function intro(){
         scrollTrigger:{
             trigger:'#intro',
             start:'top top',
-            end:'+='+(frameCount*OffsetValue),
+            end:'+='+(frameCount*OffsetValue / 4),
             pin:true,  
             scrub:true
         }
