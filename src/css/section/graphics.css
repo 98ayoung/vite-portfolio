@@ -10,7 +10,7 @@
 }
 
 .graph_title{
-    position: sticky;
+    /* position: sticky; */
     top: 70px;
     left: 0;
     width: 100%;
@@ -100,12 +100,12 @@
 .graph_wrap .stage2 .img_text .title2{
     font-size: 1.5vw;
 }
-/* 
-.graph_wrap .stage2 ul.size li:nth-child(1){
+
+/* .graph_wrap .stage2 ul.size li:nth-child(1){
     width: 32%;
     margin-left: 10%;
-}
- */
+} */
+
 .graph_wrap .stage2 ul.size li:nth-child(1){
     width: 55%;
     margin-left: -50px;
