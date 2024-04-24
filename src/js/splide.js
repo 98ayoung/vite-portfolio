@@ -16,7 +16,7 @@ export function splide(){
     }).mount({AutoScroll});
 
     new Splide( '#splide2',{
-        direction : 'rtl',
+        direction : 'ltl',
         type : "loop",
         autoWidth : true,
         focus : 'center',
